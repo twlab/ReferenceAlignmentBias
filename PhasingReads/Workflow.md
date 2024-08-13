@@ -7,9 +7,8 @@ Create a combined Genome file of maternal and paternal genome by renaming all ch
 
 Then align reads to this combined genome using BWA-MEM:
 
-> sbatch /scratch/twlab/tekkey/PhasingData/scripts/run_BWA_index.sh HG00741_combined.fasta
-> Parameters.txt:
-> > THREADS REFERENCE READ1 READ2 OUTPUT
+> sbatch /scratch/twlab/tekkey/PhasingData/scripts/run_BWA_index.sh HG00741_combined.fasta\
+> >Parameters.txt: THREADS REFERENCE READ1 READ2 OUTPUT
 > 
 > sbatch --array=1-#%# /scratch/twlab/tekkey/PhasingData/scripts/run_Batch_BWAMEM.sh Parameters.txt
 
