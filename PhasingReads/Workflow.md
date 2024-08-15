@@ -35,5 +35,13 @@ Then run the following BASH scripts which call the corresponding python scripts
 > sbatch --array=1-#%# run_PartitionReadsRNA.sh ParamFileRNA.tsv \
 > sbatch --array=1-#%# run_PartitionReadsWGBS.sh ParamFileWGBS.tsv \
 
+Finally, get the partitioned reads for every individual split between maternal and paternal as fastq:\
+Make a param file with columns:
+> read1Fastq read2Fastq ParentalOuputFromPartition outputFastqR1 outputFastqR2 filePrefixForSorting
+
+Then run:
+
+> sbatch --array=1-#%# SplitReads.sh Parameters.tsv
+
 
 
