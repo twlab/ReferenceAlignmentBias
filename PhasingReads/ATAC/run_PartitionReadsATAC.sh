@@ -15,5 +15,5 @@ read FastQR1 FastQR2 CombinedBAM MatBAM PatBAM mat1 pat1 < <( sed -n ${SLURM_ARR
 
 
 echo "Start python script..."
-python3 /scratch/twlab/tekkey/PhasingData/scripts/partitionReads.py $FastQR1 $FastQR2 $CombinedBAM $MatBAM $PatBAM $mat1 $pat1
+python3 /scratch/twlab/tekkey/PhasingData/scripts/partitionReadsATAC.py $FastQR1 $FastQR2 $CombinedBAM $MatBAM $PatBAM $mat1 $pat1
 echo "Python script complete!"
