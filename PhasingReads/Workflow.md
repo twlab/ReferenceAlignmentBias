@@ -43,5 +43,9 @@ Then run:
 
 > sbatch --array=1-#%# SplitReads.sh Parameters.tsv
 
+The result of which is 2 files per line, which are FastQs containing the reads associated with either the maternal or paternal genome. These are then realigned to hg38 and the parental genome using the same aligners as above.
+
+
+
 
 
