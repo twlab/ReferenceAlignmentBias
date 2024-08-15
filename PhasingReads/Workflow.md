@@ -31,9 +31,9 @@ For all three technologies, compile a parameter file with columns:
 
 Then run the following BASH scripts which call the corresponding python scripts
 
-> sbatch --array=1-#%# run_PartitionReadsATAC.sh ParamFileATAC.tsv /
-> sbatch --array=1-#%# run_PartitionReadsRNA.sh ParamFileRNA.tsv /
-> sbatch --array=1-#%# run_PartitionReadsWGBS.sh ParamFileWGBS.tsv /
+> sbatch --array=1-#%# run_PartitionReadsATAC.sh ParamFileATAC.tsv \
+> sbatch --array=1-#%# run_PartitionReadsRNA.sh ParamFileRNA.tsv \
+> sbatch --array=1-#%# run_PartitionReadsWGBS.sh ParamFileWGBS.tsv \
 
 
 
