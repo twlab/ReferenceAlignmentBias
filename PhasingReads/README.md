@@ -1,3 +1,11 @@
+# Phasing Reads
+### This code details how bulk ATAC-seq, RNA-seq, and WGBS data were phased using the maternal and paternal genomes of the individuals under study. The subdirectories include the scripts for each different aligner (BWA-mem for ATAC, STAR for RNA, and Bismark for WGBS) and the Python scripts used to phase the outputs of these aligners.
+
+### The general workflow is detailed below:
+
+---
+
+
 Create a combined Genome file of maternal and paternal genome by renaming all chromosomes to be either maternal or paternal, and then cat the files together.
 
 > sed 's/^>chr.*/&_maternal/' HG00741_mat_ragtag.fasta > HG00741_mat_ragtag_marked.fasta\
