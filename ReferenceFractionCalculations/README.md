@@ -1,3 +1,11 @@
+# Reference Fraction Calculation
+### This code details how the genome files were processed in order to calculate a reference fraction for syntenic bin pairs of the query genome and the reference.
+
+### The general workflow is detailed below:
+
+---
+
+
 Start first with the genome size files of hg38 and the individual's genome
 
 > ex: HG00621.maternal.ChromSize.txt
