@@ -14,4 +14,10 @@ To make the assumption that a read comes from one of the individual's haplotypes
 
 ---
 ### *Calculating Reference Alignent Bias Fractions*
+Reference alignment bias was measured through the following process:
+1. Split the query genome into 500 bp bins (query being the individual haplotype from which the sequencing reads were generated).
+2. Lift the bins over to the reference genome to get syntenic bin pairs.
+3. Intersect reference and query bins with the reads aligned to that genome to get a count.
+4. Calculate the reference fraction by dividing the number of reads intersecting the reference by the sum of reads intersecting the reference and query.
 
+The exact commands used for this process can be accessed [here](ReferenceFractionCalculations/Workflow.md), and the detailed methods in Tekkey et al.
