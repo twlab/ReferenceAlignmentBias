@@ -1,5 +1,5 @@
 # Reference Alignment Bias
-## Workflow used to quantify Reference Alignment Bias for different functional genomic assays in *Quantifying Reference Alignment Bias in Functional Genomics Analyses* (Under Review at Cell Reports Methods)
+## Workflow used to quantify Reference Alignment Bias for different functional genomic assays in *Quantifying Reference Alignment Bias in Functional Genomics Analyses* [Manuscript under review at Cell Reports Methods]
 
 *This code was specifically generated for the parameters of the study, and any end users may need to modify it to fit their specific use case.*
 
