@@ -8,4 +8,4 @@
 </p>
 
 ### *Phasing Reads*
-To make the assumption that a read comes from one of the individual's haplotypes, the bulk reads must be phased based on the likelihood they originated from the maternal or paternal genome. Phasing was accomplished by leveraging MAPQ scores returned from alignments to the maternal, paternal, or maternal+paternal combined genomes. The exact commands used to split reads between maternal and paternal genomes can be accessed here, and the detailed methods in Tekkey et Al.
+To make the assumption that a read comes from one of the individual's haplotypes, the bulk reads must be phased based on the likelihood they originated from the maternal or paternal genome. Phasing was accomplished by leveraging MAPQ scores returned from alignments to the maternal, paternal, or maternal+paternal combined genomes. The exact commands used to split reads between maternal and paternal genomes can be accessed [here](PhasingReads/Workflow.md), and the detailed methods in Tekkey et al.
