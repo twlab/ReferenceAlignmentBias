@@ -7,5 +7,11 @@
 <img width="500"  alt="Fig1WorkflowGitHub" src="https://github.com/user-attachments/assets/8e16805c-cf08-4e5b-ae55-414b2c6ff6c5" />
 </p>
 
+---
+
 ### *Phasing Reads*
 To make the assumption that a read comes from one of the individual's haplotypes, the bulk reads must be phased based on the likelihood they originated from the maternal or paternal genome. Phasing was accomplished by leveraging MAPQ scores returned from alignments to the maternal, paternal, or maternal+paternal combined genomes. The exact commands used to split reads between maternal and paternal genomes can be accessed [here](PhasingReads/Workflow.md), and the detailed methods in Tekkey et al.
+
+---
+### *Calculating Reference Alignent Bias Fractions*
+
