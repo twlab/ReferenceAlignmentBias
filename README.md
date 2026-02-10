@@ -10,7 +10,7 @@
 ---
 
 ### *Phasing Reads*
-To make the assumption that a read comes from one of the individual's haplotypes, the bulk reads must be phased based on the likelihood they originated from the maternal or paternal genome. Phasing was accomplished by leveraging MAPQ scores returned from alignments to the maternal, paternal, or maternal+paternal combined genomes. The exact commands used to split reads between maternal and paternal genomes can be accessed [here](PhasingReads/README.md), and the detailed methods in Tekkey et al.
+To make the assumption that a read comes from one of the individual's haplotypes, the bulk reads must be phased based on the likelihood they originated from the maternal or paternal genome. Phasing was accomplished by leveraging MAPQ scores returned from alignments to the maternal, paternal, or maternal+paternal combined genomes. The exact commands used to split reads between maternal and paternal genomes can be accessed [here](PhasingReads/), and the detailed methods in Tekkey et al.
 
 ---
 ### *Calculating Reference Alignent Bias Fractions*
@@ -20,4 +20,4 @@ Reference alignment bias was measured through the following process:
 3. Intersect reference and query bins with the reads aligned to that genome to get a count.
 4. Calculate the reference fraction by dividing the number of reads intersecting the reference by the sum of reads intersecting the reference and query.
 
-The exact commands used for this process can be accessed [here](ReferenceFractionCalculations/README.md), and the detailed methods in Tekkey et al.
+The exact commands used for this process can be accessed [here](ReferenceFractionCalculations/), and the detailed methods in Tekkey et al.
