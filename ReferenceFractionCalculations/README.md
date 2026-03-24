@@ -28,7 +28,7 @@ Then remove all flagged/random/alt/chrUn hits from the resulting liftover file a
 > grep -v -f tabFormatTemp.bed  -w Windows_HG00621_m.bed > HG00621_m_CouldNotLift.bed \
 > rm tabFormatTemp.bed
 
-Then intersect the resulting bed files (individual and hg38) with read data. Do it for both A and B and maternal and paternal
+Then intersect the resulting bed files (individual and hg38) with read data. Do it for both replicates (A and B) and maternal and paternal
 
 > Parameters: binnedBedFile alignedReadsBamFile chromosomeSizeFile outputFile inPath genomeName
 
