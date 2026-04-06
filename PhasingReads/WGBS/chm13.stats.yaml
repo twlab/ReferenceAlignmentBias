@@ -1,0 +1,6 @@
+genome: "chm13"
+genome_size: 3.1E+9
+read_length: 151
+num_C: 624493731
+num_G: 623349130
+num_CG: 32964873
