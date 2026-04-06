@@ -26,8 +26,7 @@ STAR for RNA-seq:
 
 Bismark for WGBS:
 
-> Run by John
-
+> Run snakemake pipeline in ReferenceAlignmentBias/PhasingReads/WGBS
 
 For all three technologies, compile a parameter file with columns:
 
