@@ -21,3 +21,5 @@ Reference alignment bias was measured through the following process:
 4. Calculate the reference fraction by dividing the number of reads intersecting the reference by the sum of reads intersecting the reference and query.
 
 The exact commands used for this process can be accessed [here](ReferenceFractionCalculations/), and the detailed methods in Tekkey et al.
+
+10.5281/zenodo.19615988
